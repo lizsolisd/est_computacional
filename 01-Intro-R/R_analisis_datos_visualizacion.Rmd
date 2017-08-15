@@ -464,7 +464,7 @@ You can add a third variable, like class, to a two dimensional scatterplot by ma
 
 ```{r, fig.width = 5.5, fig.height = 4}
 ggplot(mpg) + 
-  geom_point(aes(x = displ, y = hwy, color = class))
+  geom_point(aes(x = displ, y = hwy, color = class, size =4, shape =fl)) 
 ```
 
 ![](imagenes/manicule2.jpg) Experimenta con los _aesthetics_ color (color), 
