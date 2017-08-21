@@ -1,9 +1,10 @@
 ---
 title: "EstComp-Tarea01"
-author: Elizabeth Solis Díaz
+author: "Elizabeth Solis Díaz"
 output:
-  html_document: default
+  pdf_document: default
   html_notebook: default
+  html_document: default
 ---
 
 ```{r, warning=FALSE, message=FALSE}
@@ -44,6 +45,7 @@ ggplot(gap2000) +
 - En general, la tendencia se ha mantenido en los últimos censos.   
 
 
+\newpage 
 
 ### Gráfica 2:
 
@@ -88,7 +90,7 @@ ggplot(gap_can_mx) +
 
 ```
 
-
+\newpage 
 ### Gráfica 3:
 
 Con base en el GDP per capita observado en México, se construyó un histograma con ayuda de la función **cut2**. La finalidad de este histograma es observar el rango de GDP mas frecuente a lo largo de los 12 años de mediciones.
